@@ -43,13 +43,13 @@ function App() {
   return (
     <div>
       <ResponsiveAppBar />
-      <Grid container spacing={2}>
-        <Grid item md={3} lg={4} xl={4}></Grid>
-        <Grid item md={6} lg={4} xl={4}>
+      <Grid container spacing={2} padding={2}>
+        <Grid item xs={0} md={2} lg={3} xl={4}></Grid>
+        <Grid item xs={12} md={8} lg={6} xl={4}>
           <List people={people}/>
           <Input people={people} setPeople={setPeople}/>
         </Grid>
-        <Grid item md={3} lg={4} xl={4}></Grid>
+        <Grid item xs={0} md={2} lg={3} xl={4}></Grid>
       </Grid>
     </div>
   );

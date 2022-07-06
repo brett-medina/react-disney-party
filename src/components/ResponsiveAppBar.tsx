@@ -36,21 +36,27 @@ const ResponsiveAppBar = () => {
               textDecoration: 'none',
             }}
           >
-						PEOPLE INVITED TO BRETT'S PARTY
+            PEOPLE INVITED TO BRETT'S PARTY
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-          </Box>
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: 'flex', md: 'none' },
+              flexGrow: 1,
+              fontFamily: 'monospace',
+              fontWeight: 700,
+              letterSpacing: '.3rem',
+              color: 'inherit',
+              textDecoration: 'none',
+            }}
+          >
+            PARTY INVITE LIST
+          </Typography>
         </Toolbar>
       </Container>
     </AppBar>
