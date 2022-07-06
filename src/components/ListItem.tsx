@@ -34,7 +34,7 @@ const ListItem: React.FC<IProps> = ({ person })  => {
 					image={person.imageUrl}
 					alt="Live from space album cover"
 				/> */}
-				<Avatar variant={"rounded"} alt="The image" src={person.imageUrl} style={{
+				<Avatar alt="The image" src={person.imageUrl} style={{
 					width: 200,
 					height: 200,
 				}} />
