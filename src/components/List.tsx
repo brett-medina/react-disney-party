@@ -1,9 +1,8 @@
-import Grid from '@mui/material/Grid'
-import createTheme from '@mui/material/styles/createTheme'
 import Box from '@mui/material/Box';
-import React from 'react'
-import { IPerson } from '../types/IPerson'
-import ListItem from './ListItem'
+import createTheme from '@mui/material/styles/createTheme';
+import React from 'react';
+import { IPerson } from '../types/IPerson';
+import ListItem from './ListItem';
 
 interface IProps {
   people: IPerson[] 
